@@ -1,0 +1,35 @@
+# Mouse
+on-focused-monitor-changed = ['move-mouse window-lazy-center']
+
+# Focus window
+[mode.main.binding]
+alt-h = 'focus left'
+alt-j = 'focus down'
+alt-k = 'focus up'
+alt-l = 'focus right'
+
+# Focus monitor
+alt-u = 'focus-monitor prev'
+alt-i = 'focus-monitor next'
+
+# Move window on same monitor
+shift-alt-h = 'move left'
+shift-alt-j = 'move down'
+shift-alt-k = 'move up'
+shift-alt-l = 'move right'
+
+# Move window between monitors
+shift-alt-u = ['move-node-to-monitor prev', 'focus-monitor prev']
+shift-alt-i = ['move-node-to-monitor next', 'focus-monitor next']
+
+# Resize window
+cmd-alt-h = 'resize width -25'
+cmd-alt-j = 'resize height +25'
+cmd-alt-k = 'resize height -25'
+cmd-alt-l = 'resize width +25'
+
+# Float / unfloat window
+alt-f = 'layout floating tiling'
+
+# Maximize window (toggle fullscreen)
+alt-m = 'fullscreen'
