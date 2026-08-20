@@ -173,4 +173,3 @@ gaps.outer.right =      0
 [[on-window-detected]]
 if.app-id = 'com.mitchellh.ghostty'
 run = ['layout tiling']
-run = ['layout tiling']
